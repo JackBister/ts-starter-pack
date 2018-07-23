@@ -3,9 +3,18 @@
 
     "scripts": {
         "build": "webpack -p",
-        "start": "webpack-dev-server -d --content-base ."
+        "start": "webpack-dev-server -d --content-base .",
+        "start-test": "karma start"
     },
-    "dependencies": {
+    "devDependencies": {
+        "@types/jasmine": "2.8.8",
+        "jasmine": "3.1.0",
+        "karma": "2.0.4",
+        "karma-chrome-launcher": "2.2.0",
+        "karma-cli": "1.0.1",
+        "karma-jasmine": "1.1.2",
+        "karma-typescript": "3.0.13",
+        "karma-typescript-es6-transform": "1.0.4",
         "ts-loader": "4.4.2",
         "typescript": "2.9.2",
         "webpack": "4.14.0",

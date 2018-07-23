@@ -15,6 +15,11 @@
             "script": "start",
             "isBackground": true,
             "problemMatcher": []
+        },
+        {
+            "type": "npm",
+            "script": "start-test",
+            "problemMatcher": []
         }
     ]
 }
