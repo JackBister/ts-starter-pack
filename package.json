@@ -3,7 +3,7 @@
 
     "scripts": {
         "build": "webpack -p",
-        "start": "webpack-dev-server -d --content-base .",
+        "start": "webpack-dev-server -d --content-base . --host 0.0.0.0",
         "start-test": "karma start"
     },
     "devDependencies": {
