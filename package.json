@@ -3,7 +3,8 @@
     "scripts": {
         "build": "webpack -p",
         "start": "webpack-dev-server -d --content-base . --host 0.0.0.0",
-        "start-test": "karma start"
+        "start-test": "karma start",
+        "test": "karma start --single-run"
     },
     "devDependencies": {
         "@types/jasmine": "2.8.8",

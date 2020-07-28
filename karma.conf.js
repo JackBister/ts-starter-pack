@@ -1,4 +1,4 @@
-module.exports = function(config) {
+module.exports = function (config) {
     config.set({
         autoWatch: true,
         frameworks: ["jasmine", "karma-typescript"],
@@ -18,6 +18,6 @@ module.exports = function(config) {
             "**/*.tsx": ["karma-typescript"]
         },
         reporters: ["progress", "karma-typescript"],
-        browsers: ["Chrome"]
+        browsers: ["ChromeHeadless"]
     });
 };
