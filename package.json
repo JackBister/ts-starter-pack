@@ -15,7 +15,7 @@
         "karma-jasmine": "3.3.1",
         "karma-typescript": "5.0.3",
         "karma-typescript-es6-transform": "5.0.3",
-        "ts-loader": "8.0.1",
+        "ts-loader": "8.0.2",
         "typescript": "3.9.7",
         "webpack": "4.44.1",
         "webpack-cli": "3.3.12",
