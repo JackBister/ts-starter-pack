@@ -1,24 +1,37 @@
 {
-    "name": "ts-starter-pack",
-    "scripts": {
-        "build": "webpack -p",
-        "start": "webpack-dev-server -d --content-base . --host 0.0.0.0",
-        "start-test": "karma start",
-        "test": "karma start --single-run"
-    },
-    "devDependencies": {
-        "@types/jasmine": "3.5.12",
-        "jasmine": "3.6.1",
-        "karma": "5.1.1",
-        "karma-chrome-launcher": "3.1.0",
-        "karma-cli": "2.0.0",
-        "karma-jasmine": "3.3.1",
-        "karma-typescript": "5.0.3",
-        "karma-typescript-es6-transform": "5.0.3",
-        "ts-loader": "8.0.2",
-        "typescript": "3.9.7",
-        "webpack": "4.44.1",
-        "webpack-cli": "3.3.12",
-        "webpack-dev-server": "3.11.0"
+  "name": "ts-starter-pack",
+  "scripts": {
+    "build": "webpack -p",
+    "lint": "prettier --check .",
+    "lint-fix": "prettier --write .",
+    "start": "webpack-dev-server -d --content-base . --host 0.0.0.0",
+    "start-test": "karma start",
+    "test": "karma start --single-run"
+  },
+  "devDependencies": {
+    "@types/jasmine": "3.5.12",
+    "husky": "4.2.5",
+    "jasmine": "3.6.1",
+    "karma": "5.1.1",
+    "karma-chrome-launcher": "3.1.0",
+    "karma-cli": "2.0.0",
+    "karma-jasmine": "3.3.1",
+    "karma-typescript": "5.0.3",
+    "karma-typescript-es6-transform": "5.0.3",
+    "lint-staged": "10.2.11",
+    "prettier": "2.0.5",
+    "ts-loader": "8.0.2",
+    "typescript": "3.9.7",
+    "webpack": "4.44.1",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.{css,html,js,jsx,json,md,ts,tsx,yml}": "prettier --write"
+  }
 }

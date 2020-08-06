@@ -1,25 +1,25 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "type": "npm",
-            "script": "build",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": []
-        },
-        {
-            "type": "npm",
-            "script": "start",
-            "isBackground": true,
-            "problemMatcher": []
-        },
-        {
-            "type": "npm",
-            "script": "start-test",
-            "problemMatcher": []
-        }
-    ]
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "start",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "start-test",
+      "problemMatcher": []
+    }
+  ]
 }
