@@ -9,7 +9,7 @@
     "test": "karma start --single-run"
   },
   "devDependencies": {
-    "@types/jasmine": "3.5.12",
+    "@types/jasmine": "3.5.13",
     "husky": "4.2.5",
     "jasmine": "3.6.1",
     "karma": "5.1.1",
