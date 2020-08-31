@@ -18,7 +18,7 @@
     "karma-jasmine": "4.0.1",
     "karma-typescript": "5.1.0",
     "karma-typescript-es6-transform": "5.1.0",
-    "lint-staged": "10.2.11",
+    "lint-staged": "10.2.13",
     "prettier": "2.1.0",
     "ts-loader": "8.0.3",
     "typescript": "3.9.7",
