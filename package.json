@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@types/jasmine": "3.5.14",
-    "husky": "4.2.5",
+    "husky": "4.3.0",
     "jasmine": "3.6.1",
     "karma": "5.2.0",
     "karma-chrome-launcher": "3.1.0",
