@@ -1,3 +1,6 @@
+# Archived as of 2023-05-19:
+I created this repository at a time when I thought that it was too complicated to get started with small TypeScript projects. But today I would probably use something like [Vite's templates](https://vitejs.dev/guide/) over this starter pack. Since I don't have any use for the project myself I have archived it to stop Dependabot from telling me I need to keep it updated.
+
 # TypeScript project starter pack
 
 This is a small starter pack for getting a TypeScript project started using Webpack and ts-loader.
